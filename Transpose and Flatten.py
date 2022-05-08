@@ -9,4 +9,6 @@ for _ in range(int(a)):
     lists.append(n)
 
 matrix_array = numpy.array(lists)
-print(numpy.prod(matrix_array))
+
+print(numpy.transpose(matrix_array))
+print(matrix_array.flatten())
